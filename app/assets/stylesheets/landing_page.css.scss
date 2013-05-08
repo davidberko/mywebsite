@@ -2,20 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body {
+  background-image: url('Leather.jpg');
+  background-attachment: fixed;
+}
 h1 {
-
+   color: floralwhite;
 }
 #menu {
-  border-top: 1px solid #99CC33;
-  border-left: 1px solid #99CC33;
-  border-right: 1px solid #99CC33;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   height: 1000px;
   width: 150px;
   float: left;
   margin-right: 5px;
   padding: 5px 0 0 5px;
-  border-color: Blue Blue;
+  border-color: black black;
   position: fixed;
+  background-image: url('quil.png');
+  background-attachment: fixed;
+  background-repeat: repeat-x;
 
 }
 #content {
@@ -26,4 +33,7 @@ h1 {
   border-bottom: 1px solid black;
   width: 750px;
   height: 1000px;
+  margin-left: 155px;
+  padding-left: 10px;
+  background-color: #F8F8F8;
 }
