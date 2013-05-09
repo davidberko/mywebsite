@@ -10,20 +10,25 @@ h1 {
    color: floralwhite;
 }
 #menu {
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
   height: 1000px;
   width: 150px;
   float: left;
   margin-right: 5px;
   padding: 5px 0 0 5px;
-  border-color: black black;
   position: fixed;
+  opacity: 0.5;
+
+  #link1 {
+    background-image: url('Ink.jpg');
+    height: 100px;
+  }
+}
+
+#feather {
   background-image: url('quil.png');
   background-attachment: fixed;
-  background-repeat: repeat-x;
-
+  background-repeat: repeat-none;
+  height: 200px;
 }
 #content {
 
@@ -34,6 +39,12 @@ h1 {
   width: 750px;
   height: 1000px;
   margin-left: 155px;
-  padding-left: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 75px;
   background-color: #F8F8F8;
+  p {
+    text-shadow: 1px 1px #909090;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
 }
