@@ -1,0 +1,4 @@
+<div id="writing"><% (@users).each do |u| %>
+    <p id="story"><%= u.story %></p><%=link_to "delete",u, :confirm => 'Are you sure?', :method => :delete %>
+    <% end %>
+</div>

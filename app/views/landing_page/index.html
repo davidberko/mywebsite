@@ -1,0 +1,13 @@
+
+<h1>David Berko</h1>
+
+<div id="content">
+    <% @user.each do |user| %>
+
+        <span><b><%= user.title %></b> <%= time_ago_in_words(user.created_at)%> ago</span>
+        <p><%= user.story %></p>
+    <% end %>
+
+</div>
+
+
