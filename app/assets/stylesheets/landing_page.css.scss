@@ -1,0 +1,64 @@
+// Place all the styles related to the landing_page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-image: url('Leather.jpg');
+  background-attachment: fixed;
+}
+h1 {
+   color: floralwhite;
+}
+span {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#menu {
+  width: 150px;
+  float: left;
+  margin-right: 5px;
+  padding: 5px 0 0 5px;
+  position: fixed;
+  opacity: 0.5;
+
+  #link1 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    background-image: url('Ink.jpg');
+    height: 75px;
+  }
+  #link2 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    background-image: url('Ink.jpg');
+    height: 75px;
+  }
+}
+
+#feather {
+  background-image: url('quil.png');
+  background-attachment: fixed;
+  background-repeat: repeat-none;
+  height: 200px;
+}
+#content {
+
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 750px;
+
+  margin-left: 155px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 75px;
+  background-color: #F8F8F8;
+  p {
+    text-shadow: 1px 1px #909090;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-indent: 50px;
+    padding: 50px;
+  }
+}
