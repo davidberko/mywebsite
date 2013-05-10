@@ -13,7 +13,6 @@ span {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 #menu {
-  height: 1000px;
   width: 150px;
   float: left;
   margin-right: 5px;
@@ -22,8 +21,18 @@ span {
   opacity: 0.5;
 
   #link1 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 45px;
     background-image: url('Ink.jpg');
-    height: 100px;
+    height: 75px;
+  }
+  #link2 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    background-image: url('Ink.jpg');
+    height: 75px;
   }
 }
 

@@ -6,7 +6,17 @@
 
   <%= csrf_meta_tags %>
 </head>
+<nav><div id="Home"><%= link_to "Home", root_path %></div></nav>
 <body>
+
+<sidebar id="menu">
+  <div id="feather"></div>
+  <div  id="link1">
+    <%= link_to "About", about_path %><br/>
+    <%= link_to "Stories"%>
+  </div>
+
+</sidebar>
 
 <%= yield %>
 

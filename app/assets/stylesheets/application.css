@@ -10,4 +10,39 @@
  *
  *= require_self
  *= require_tree .
- */
+ */ #menu {
+    width: 150px;
+    float: left;
+    margin-right: 5px;
+    padding: 5px 0 0 5px;
+    position: fixed;
+    opacity: 0.5;
+
+#link1 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    background-image: url('Ink.jpg');
+    height: 75px;
+}
+#link2 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    background-image: url('Ink.jpg');
+    height: 75px;
+}
+    }
+
+#feather {
+    background-image: url('quil.png');
+    background-attachment: fixed;
+    background-repeat: repeat-none;
+    height: 200px;
+}
+nav {
+    #Home{
+    background-image: url('Home.jpg');
+}
+
+}
