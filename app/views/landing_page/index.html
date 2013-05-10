@@ -10,7 +10,7 @@
 <div id="content">
     <% @user.each do |user| %>
 
-        <span><h3><%= user.title %></h3><%= time_ago_in_words(user.created_at)%> ago</span>
+        <span><b><%= user.title %></b> <%= time_ago_in_words(user.created_at)%> ago</span>
         <p><%= user.story %></p>
     <% end %>
 

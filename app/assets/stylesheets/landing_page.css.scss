@@ -9,6 +9,9 @@ body {
 h1 {
    color: floralwhite;
 }
+span {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
 #menu {
   height: 1000px;
   width: 150px;
@@ -46,5 +49,7 @@ h1 {
   p {
     text-shadow: 1px 1px #909090;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    text-indent: 50px;
+    padding: 50px;
   }
 }
