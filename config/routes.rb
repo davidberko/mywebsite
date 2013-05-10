@@ -14,6 +14,7 @@ Mywebsite::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   match 'about' => 'users#about'
+  match 'future' => 'users#future'
   resources :users
 
   # Sample resource route with options:
