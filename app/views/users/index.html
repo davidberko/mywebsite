@@ -1,3 +1,4 @@
-<% @users.each do |u| %>
-        <%= u.story %>
-<% end %>
+<div id="writing"><% (@users).each do |u| %>
+    <p id="story"><%= u.story %></p><%= button_to "delete", u, method: :delete %>
+    <% end %>
+</div>

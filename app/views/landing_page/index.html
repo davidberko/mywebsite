@@ -8,11 +8,12 @@
     </div>
 </sidebar>
 <div id="content">
-    <p>THis is some text
+    <% @user.each do |user| %>
 
-      I love to free-write. Soon I will have stories up and ready to read on this website. Good-on ya mate!
-    ...
-    </p>
+        <span><h3><%= user.title %></h3><%= time_ago_in_words(user.created_at)%> ago</span>
+        <p><%= user.story %></p>
+    <% end %>
+
 </div>
 
 
