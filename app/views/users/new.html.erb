@@ -1,13 +1,14 @@
-<h2>New Post</h2>
+<h3>New Post</h3>
 
 <%= form_for @user do |f| %>
     <p>
-      <%= f.label :title %>
+      <span id="title_label"><%= f.label :title %></span>
       <%= f.text_field :title %>
     </p>
+    <span id="story_label"<%= f.label :story %></span>
     <p>
-      <%= f.label :story %>
+
       <%= f.text_area :story %>
     </p>
-    <%= f.submit %>
+    <%= f.submit "Publish" %>
 <% end %>
