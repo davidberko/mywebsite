@@ -3,14 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="34757e5d-c152-4d7b-b4c8-c825e8939428" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/landing_page/index.html" afterPath="$PROJECT_DIR$/app/views/landing_page/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/index.html" afterPath="$PROJECT_DIR$/app/views/users/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/landing_page.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/landing_page.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mywebsite.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="34757e5d-c152-4d7b-b4c8-c825e8939428" time="1368385372587" ignored="false" />
     <file path="/landing_page_controller.rb" changelist="34757e5d-c152-4d7b-b4c8-c825e8939428" time="1368142455320" ignored="false" />
-    <file path="/index.html" changelist="34757e5d-c152-4d7b-b4c8-c825e8939428" time="1368465627199" ignored="false" />
+    <file path="/index.html" changelist="34757e5d-c152-4d7b-b4c8-c825e8939428" time="1368477339973" ignored="false" />
     <file path="/routes.rb" changelist="34757e5d-c152-4d7b-b4c8-c825e8939428" time="1368214590839" ignored="false" />
     <file path="/application.html.erb" changelist="34757e5d-c152-4d7b-b4c8-c825e8939428" time="1368215878323" ignored="false" />
     <file path="/landing_page.css.scss" changelist="34757e5d-c152-4d7b-b4c8-c825e8939428" time="1368465225086" ignored="false" />
@@ -42,10 +41,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/landing_page/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="49" selection-start="214" selection-end="214" vertical-scroll-proportion="-4.576923">
+            <state line="8" column="23" selection-start="239" selection-end="239" vertical-scroll-proportion="0.26666668">
               <folding />
             </state>
           </provider>
@@ -114,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="34" selection-start="79" selection-end="79" vertical-scroll-proportion="0.03420523">
+            <state line="4" column="20" selection-start="189" selection-end="189" vertical-scroll-proportion="-2.6153846">
               <folding />
             </state>
           </provider>
@@ -154,9 +153,9 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/landing_page/index.html" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/landing_page.css.scss" />
         <option value="$PROJECT_DIR$/app/views/users/index.html" />
+        <option value="$PROJECT_DIR$/app/views/landing_page/index.html" />
       </list>
     </option>
   </component>
@@ -967,13 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/landing_page/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="49" selection-start="214" selection-end="214" vertical-scroll-proportion="-4.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/landing_page.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="14" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0">
@@ -983,7 +975,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="34" selection-start="79" selection-end="79" vertical-scroll-proportion="0.03420523">
+        <state line="4" column="20" selection-start="189" selection-end="189" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/landing_page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="239" selection-end="239" vertical-scroll-proportion="0.26666668">
           <folding />
         </state>
       </provider>
