@@ -10,7 +10,13 @@
  *
  *= require_self
  *= require_tree .
- */ #menu {
+
+ */
+body {
+    background-image: url('Leather.jpg');
+    background-attachment: fixed;
+}
+#menu {
     width: 150px;
     float: left;
     margin-right: 5px;
