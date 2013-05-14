@@ -10,5 +10,10 @@
 
       <%= f.text_area :story, :cols=>"100", :rows=>"15" %>
     </p>
+    or...
+    <p>
+         <%= f.label :about %>
+         <%= f.text_area :about, :cols=>"100", :rows=>"15"%>
+    </p>
     <%= f.submit "Publish" %>
 <% end %>

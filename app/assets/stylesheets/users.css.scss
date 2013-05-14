@@ -1,4 +1,4 @@
-// Place all the styles related to the users controller here.
+xs// Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 h3{
@@ -16,11 +16,37 @@ span {
       padding: 50px;
     }
   }
+  #about_header {
+    color: floralwhite;
+  }
 
+  #about_me {
+    background-color: floralwhite;
+    height: 1000px;
+    margin-left: 156px;
+    padding: 10px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
   #pic {
+    width:250px;
+    height:200px;
+    background: transparent url(About.jpg) -5px -45px no-repeat;
+    margin-left: 25px;
+    margin-top: 25px;
+
 
   }
 
 form {
   margin-left: 250px;
+}
+
+#future {
+  color: floralwhite;
+}
+#future_wrapper {
+  height: 1000px;
+  margin-left: 156px;
+  background-color: floralwhite;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }

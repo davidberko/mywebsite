@@ -18,6 +18,9 @@ class UsersController < ApplicationController
     end
   end
 
+  def about
+    @users = User.all
+  end
 
 
   def destroy

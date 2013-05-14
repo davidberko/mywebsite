@@ -1,5 +1,11 @@
-<h3>About</h3>
-<div id="pic">
+<h3 id="about_header">About</h3>
+
+<div id="about_me">
+    <div id="pic">
+
+    </div>
+    <% @users.each do |u| %>
+    <%= simple_format u.about %>
+    <% end %>
 
 </div>
-<p></p>
