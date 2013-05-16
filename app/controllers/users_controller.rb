@@ -18,6 +18,10 @@ class UsersController < ApplicationController
     end
   end
 
+  def show
+    @user = User.find(params[:id])
+  end
+
   def about
     @users = User.all
   end
@@ -25,8 +29,10 @@ class UsersController < ApplicationController
 
   def destroy
     @user = User.find(params[:id])
-    if @user.destroy
-      redirect_to 'index'
+    if @user.delete
+      redirect_to "index"
+    else
+      @user
     end
   end
 end
