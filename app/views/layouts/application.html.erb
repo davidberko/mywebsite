@@ -7,18 +7,20 @@
   <%= csrf_meta_tags %>
 </head>
 <nav>
-  <div id="Home">
-    <a href="www.davidmberko@herokuapp.com"><img src="Home.jpg" /></a>
-  </div>
+
 </nav>
 <body>
 
 <sidebar id="menu">
   <div id="feather"></div>
   <div  id="link1">
+    <div id="Home">
+      <a href="/">Home</a>
+    </div>
     <%= link_to "About", about_path %><br/>
     <%= link_to "Stories"%><br/>
     <%= link_to "Future", future_path %>
+
   </div>
 
 </sidebar>
