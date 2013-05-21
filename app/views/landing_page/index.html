@@ -5,8 +5,11 @@
     <% @user.each do |user| %>
 
         <span><b><%= user.title %></b> <%= time_ago_in_words(user.created_at)%> ago</span>
-            <p><%= simple_format user.story %></p>
-        <div id="social">
+            <p>
+                <%= simple_format truncate user.story, length: 200 %>
+                <%= link_to 'read more', user %>
+            </p>
+    <div id="social">
             <g:plus action="share"></g:plus>
             <fb:like href= "" layout="button_count" show_faces="false" width="450" font=""></fb:like>
         </div>
