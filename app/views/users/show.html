@@ -1,8 +1,10 @@
-<div id="content">
-    <p><%=simple_format @user.story %></p>
-    <div id="social">
-        <g:plus action="share"></g:plus>
-        <fb:like href= "" layout="button_count" show_faces="false" width="450" font=""></fb:like>
+    <h1><%= @user.title %></h1>
+    <div id="content">
+        <p><%=simple_format @user.story %></p>
+        <div id="social">
+            <g:plus action="share"></g:plus>
+            <fb:like href= "" layout="button_count" show_faces="false" width="450" font=""></fb:like>
+        </div>
     </div>
-</div>
+
 

@@ -15,8 +15,10 @@
 body {
     background-image: url('Leather.jpg');
     background-attachment: fixed;
+    margin: 50px;
 }
 #menu {
+    margin-top: 73px;
     width: 150px;
     float: left;
     margin-right: 5px;
@@ -41,7 +43,7 @@ body {
     }
 
 #feather {
-    background-image: url('quil.png');
+    background-image: url('quil.jpg');
     background-attachment: fixed;
     background-repeat: repeat-none;
     height: 200px;
