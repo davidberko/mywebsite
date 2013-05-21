@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34757e5d-c152-4d7b-b4c8-c825e8939428" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/new_about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/about.html" afterPath="$PROJECT_DIR$/app/views/users/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/future.html" afterPath="$PROJECT_DIR$/app/views/users/future.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mywebsite.iws" />
