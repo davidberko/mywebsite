@@ -4,14 +4,17 @@ xs// Place all the styles related to the users controller here.
 h3{
    color: floralwhite;
 }
-span {
 
+#title {
+       border-bottom: black 1px solid ;
 }
+
 #writing {
     background-color: floralwhite;
     margin-left: 250px;
     padding: 50px;
     #story {
+
       background-color: floralwhite;
       padding: 50px;
     }
@@ -20,9 +23,10 @@ span {
     color: floralwhite;
   }
 
-  #about_me {
+  #about_me_container {
     background-color: floralwhite;
-    height: 1000px;
+    height: 750px;
+
     margin-left: 156px;
     padding: 10px;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -46,7 +50,8 @@ form {
   color: floralwhite;
 }
 #future_wrapper {
-  height: 1000px;
+  height: 450px;
+
   margin-left: 156px;
   background-color: floralwhite;
   font-family: "Comic Sans MS", cursive, sans-serif;

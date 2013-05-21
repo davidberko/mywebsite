@@ -2,12 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
-  background-image: url('Leather.jpg');
-  background-attachment: fixed;
-}
+
 h1 {
    color: floralwhite;
+   margin-bottom: 40px;
+
+}
+#container {
+
+  width: 900px;
+
+
 }
 span {
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -20,7 +25,9 @@ span {
   position: fixed;
   opacity: 0.5;
 
-  #link1 {
+  #link1  {
+
+    color: white;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 45px;
@@ -37,7 +44,7 @@ span {
 }
 
 #feather {
-  background-image: url('quil.png');
+  background-image: url('stylus.jpg');
   background-attachment: fixed;
   background-repeat: repeat-none;
   height: 200px;
@@ -54,10 +61,16 @@ span {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 75px;
-  background-color: #F8F8F8;
+  width: 900px;
+
+  background-color: floralwhite;
   p {
     text-shadow: 1px 1px #909090;
     font-family: "Comic Sans MS", cursive, sans-serif;
     padding: 2px
+  }
+  #social {
+    border-top: black 1px solid;
+    padding: 2px;
   }
 }
