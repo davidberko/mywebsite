@@ -1,0 +1,9 @@
+<h3>New About</h3>
+
+<%= form_for @user do |f| %>
+<p>
+    <%= f.label :about %>
+    <%= f.text_area :about, :cols=>"100", :rows=>"15"%>
+</p>
+<%= f.submit "Publish" %>
+<% end %>

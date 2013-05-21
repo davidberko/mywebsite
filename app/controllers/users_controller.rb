@@ -9,6 +9,10 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
   end
 
+  def new_about
+    @user = User.new(params[:user])
+  end
+
   def create
     @user = User.new(params[:user])
     if @user.save
