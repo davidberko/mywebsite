@@ -1,20 +1,21 @@
 
 <h1>David Berko</h1>
 
-<div id="content">
-    <% @user.each do |user| %>
+<div id="container">
+    <div id="content">
+        <% @user.each do |user| %>
 
-        <span><b><%= user.title %></b> <%= time_ago_in_words(user.created_at)%> ago</span>
+            <div id="title"><b><%= user.title %></b> <%= time_ago_in_words(user.created_at)%> ago</div>
             <p>
                 <%= simple_format truncate user.story, length: 200 %>
                 <%= link_to 'read more', user %>
             </p>
-    <div id="social">
+        <div id="social">
             <g:plus action="share"></g:plus>
             <fb:like href= "" layout="button_count" show_faces="false" width="450" font=""></fb:like>
         </div>
-       <% end %>
-
+        <% end %>
+    </div>
 </div>
 
 <script src="http://connect.facebook.net/en_US/all.js#xfbml=1">
