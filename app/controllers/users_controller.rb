@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  http_basic_authenticate_with name: "David Berko", password: "db101191" , except: [:about, :future]
+  http_basic_authenticate_with name: "David Berko", password: "db101191" , except: [:about, :future, :show]
 
   def index
     @users = User.all
