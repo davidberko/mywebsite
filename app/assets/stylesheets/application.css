@@ -49,6 +49,16 @@ body {
     height: 200px;
 }
 
+body footer {
+    color: gray;
+    border-top: gray 1px ridge;
+    text-align: center;
+    background-color: lightgray;
+    margin-left: 156px;
+    margin-right: 190px;
+    padding: 2px;
+}
+
 
 
 
