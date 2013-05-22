@@ -60,3 +60,32 @@ form {
     font-size: 50px;
   }
 }
+#comments {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+
+
+  margin-left: 155px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 75px;
+  width: 900px;
+
+  background-color: floralwhite;
+  padding-bottom: 30px;
+  #commenters {
+    border: black solid 2px;
+    margin-bottom: 20px;
+    padding: 4px;
+    #comment_title {
+      border-bottom: black solid 1px;
+      margin-bottom: 10px;
+      background-color: whitesmoke;
+    }
+  }
+}
+#form {
+
+}
