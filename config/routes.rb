@@ -1,4 +1,6 @@
 Mywebsite::Application.routes.draw do
+  get "commenters/new"
+
   get "users/new"
 
   # The priority is based upon order of creation:
@@ -16,7 +18,10 @@ Mywebsite::Application.routes.draw do
   match 'about' => 'users#about'
   match 'future' => 'users#future'
   match 'new_about' => 'users#new_about'
-  resources :users
+
+  resources :users do
+    resources :commenters
+  end
 
   # Sample resource route with options:
   #   resources :products do
